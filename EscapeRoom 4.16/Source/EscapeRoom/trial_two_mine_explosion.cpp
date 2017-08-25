@@ -60,3 +60,11 @@ bool Utrial_two_mine_explosion::CheckIfPlayerEntered()
 	}
 	return false;
 }
+
+void Utrial_two_mine_explosion::CrosshairBang()
+{
+	//APlayerController* ThisPlayer = GetWorld()->GetFirstPlayerController();
+
+	//ThisPlayer->GetPlayerViewPoint(OUT , OUT);
+}
+

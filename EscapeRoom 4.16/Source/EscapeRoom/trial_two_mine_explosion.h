@@ -40,4 +40,7 @@ private:
 	// Check if player overlaps the trigger volume
 	bool CheckIfPlayerEntered();
 	bool IfTriggered = false;
+
+	// Bump crosshair on explosion
+	void CrosshairBang();
 };
